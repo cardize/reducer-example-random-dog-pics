@@ -1,5 +1,6 @@
 import { useReducer, useState } from 'react'
 import { reducer } from './reducer'
+import axios from 'axios'
 
 import './App.css'
 
@@ -16,8 +17,9 @@ function App() {
   const randomPic = () => {
     dispatch({ type: 'FETCH_START' })
 
-    fetch('https://dog.ceo/api/breeds/image/random')
-      .then((response) => response.json([0]))
+    axios
+      .get('https://dog.ceo/api/breeds/image/random')
+      .then((response) => response.data)
       .then((response) => {
         dispatch({ type: 'FETCH_SUCCESS', payload: response.message })
       })
