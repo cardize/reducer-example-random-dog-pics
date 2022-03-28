@@ -1,3 +1,6 @@
+This little tiny bit web app gets a random dog pics to the page when you click the button for to show how to use useReducer Hook.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
