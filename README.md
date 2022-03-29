@@ -1,4 +1,5 @@
 This little tiny bit web app gets a random dog pics to the page when you click the button for to show how to use useReducer Hook.
+For the article please visit: https://medium.com/@mustafassakarya/class-based-vs-function-based-in-react-usestate-for-beginners-23d83b17ed46
 
 
 # Getting Started with Create React App
